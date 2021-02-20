@@ -7,4 +7,5 @@ body, div#root{
     width: 100vw;
     min-height: 100vh;
     color: #1A1616;
+    min-width: 260px;
 }
