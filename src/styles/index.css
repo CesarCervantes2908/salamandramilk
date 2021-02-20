@@ -3,9 +3,10 @@
     margin: 0;
     padding: 0;
 }
-body, div#root{
-    width: 100vw;
+html,body, div#root{
+    width: 100%;
     min-height: 100vh;
     color: #1A1616;
-    min-width: 260px;
+    scrollbar-width: thin;
+    max-width: 100%;
 }

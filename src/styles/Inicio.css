@@ -3,7 +3,7 @@ main{
     min-height: 92vh;
 }
 section{
-    width: 100%;
+    width: 100vw;
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
