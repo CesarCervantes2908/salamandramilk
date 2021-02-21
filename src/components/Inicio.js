@@ -3,6 +3,7 @@ import NavBar from './NavBar';
 import '../styles/Inicio.css';
 import Separador from './Separador';
 import Carousel from './Carousel';
+import ExtraInfo from './ExtraInfo';
 
 function Inicio() {
     return (
@@ -19,6 +20,12 @@ function Inicio() {
                 <section id="second">
                     <Separador>Conoce nuestros productos</Separador>
                     <Carousel></Carousel>
+                </section>
+                <section id="third">
+                    <Separador>SalamandraMilk</Separador>
+                    <ExtraInfo></ExtraInfo>
+                    <Separador>Síguenos</Separador>
+                    <img className="ig-logo" src="./images/IG-Logo-removebg-preview.png"/>
                 </section>
             </main>
         </>

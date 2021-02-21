@@ -4,9 +4,9 @@ import '../styles/Separador.css';
 function Separador({children}) {
     return (
         <div className="separador">
-            <div className="barra"></div>
+            <div className="barra"> </div>
             <p className="texto-separador">{children}</p>
-            <div className="barra"></div>
+            <div className="barra"> </div>
         </div>
     )
 }
