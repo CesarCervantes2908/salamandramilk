@@ -2,6 +2,7 @@ import React from 'react';
 import NavBar from './NavBar';
 import '../styles/Inicio.css';
 import Separador from './Separador';
+import Carousel from './Carousel';
 
 function Inicio() {
     return (
@@ -15,7 +16,10 @@ function Inicio() {
                         <p className="text-info">El Kéfir es un alimento probiótico que contiene muchos compuestos bioactivos, incluyendo hasta 30 cepas de bacterias buenas que ayudan a combatir tumores, microbios dañinos, carcinógenos y muchas otras enfermedades.</p>
                     </div>
                 </section>
-                <Separador>Conoce nuestros productos</Separador>
+                <section id="second">
+                    <Separador>Conoce nuestros productos</Separador>
+                    <Carousel></Carousel>
+                </section>
             </main>
         </>
     );
