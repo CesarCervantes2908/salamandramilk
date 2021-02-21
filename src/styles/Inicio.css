@@ -44,7 +44,7 @@ img.ig-logo{
     }
 }
 @media only screen and (min-width: 750px){
-    section{
+    section#first{
         height: 92vh;
         flex-direction: row;
         justify-content: space-around;
@@ -64,7 +64,7 @@ img.ig-logo{
     img#logo{
         height: 60%;
         width: auto;
-    }
+    } 
     .text-info{
         font-size: 20px;
     }

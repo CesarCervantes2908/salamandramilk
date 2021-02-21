@@ -1,9 +1,35 @@
 div.extra-info{
     width: 70vw;
     height: auto;
+    display: flex;
+    flex-direction: column;
 }
 p.extrainfo-paragraph{
     font-size: 20px;
     text-align: justify;
-    margin: 10vh 0;
+    margin: 8vh 0;
+}
+div.separador-vertical{
+    height: 2px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #747272;
+}
+@media only screen and (min-width: 750px){
+    div.extra-info{
+        flex-direction: row;
+        width: 90vw;
+        justify-content: space-between;
+    }
+    p.extrainfo-paragraph{
+        width: 20vw;
+        font-size: 16px;
+    }
+    div.separador-vertical{
+        display: inline-block;
+        height: 60vh;
+        width: 2px;
+        border-radius: 10px;
+        background-color: #747272;
+    }
 }
