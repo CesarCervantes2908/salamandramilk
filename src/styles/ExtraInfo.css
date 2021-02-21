@@ -1,0 +1,9 @@
+div.extra-info{
+    width: 70vw;
+    height: auto;
+}
+p.extrainfo-paragraph{
+    font-size: 20px;
+    text-align: justify;
+    margin: 10vh 0;
+}

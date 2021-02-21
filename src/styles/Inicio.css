@@ -34,7 +34,9 @@ img#foto-inicio{
     border-radius: 25px;
 }
 img.ig-logo{
-    
+    width: 10vw;
+    height: auto;
+    margin-bottom: 5vh;
 }
 @media only screen and (min-width: 480px){
     .text-info{
