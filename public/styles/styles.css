@@ -11,5 +11,8 @@ html,body, div#root{
     max-width: 100%;
 }
 body{
-    background-image: url('../images/Background.png');
+    background: 
+        url('../images/Background.png') top center no-repeat, 
+        url('../images/Backgroun2.png') bottom center no-repeat;
+    background-size: 120vw 100vh;
 }
