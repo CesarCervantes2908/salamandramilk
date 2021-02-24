@@ -14,7 +14,8 @@ function Inicio() {
                     <img src="./images/FotoInicio.jpeg" id="foto-inicio"/>
                     <div className="right-column">
                         <img src="./images/Logo.png" id="logo"/>
-                        <p className="text-info">El Kéfir es un alimento probiótico que contiene muchos compuestos bioactivos, incluyendo hasta 30 cepas de bacterias buenas que ayudan a combatir tumores, microbios dañinos, carcinógenos y muchas otras enfermedades.</p>
+                        <h1 className="title">Kéfir</h1>
+                        <p className="text-info">Alimento probiótico que contiene compuestos bioactivos, incluyendo hasta 30 cepas de microorganismos que ayudan a combatir tumores, microbios dañinos, carcinógenos y muchas otras enfermedades.</p>
                     </div>
                 </section>
                 <section id="second">
@@ -25,7 +26,7 @@ function Inicio() {
                     <Separador>SalamandraMilk</Separador>
                     <ExtraInfo></ExtraInfo>
                     <Separador>Síguenos</Separador>
-                    <img className="ig-logo" src="./images/IG-Logo-removebg-preview.png"/>
+                    <img className="ig-logo" src="./images/Iglogo.png"/>
                 </section>
             </main>
         </>

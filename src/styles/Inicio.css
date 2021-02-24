@@ -18,6 +18,10 @@ div.right-column{
     align-items: center;
     margin: 3vh 0 5vh 0;
 }
+h1{
+    width: 100%;
+    text-align: left;
+}
 img#logo{
     width: 100%;
     max-width: 380px;
