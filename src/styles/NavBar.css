@@ -1,16 +1,7 @@
 nav{
-    width: 100vw;
-    height: 8vh;
-    background-color: #8DD487;
+    /* background-color: #8DD487; */
 }
 nav ul{
-    display: flex;
-    width: 90%;
-    height: 100%;
-    justify-content: space-around;
-    align-items: center;
-    margin: 0 auto;
-    list-style: none;
 }
 nav ul li a{
     text-decoration: none;
@@ -25,7 +16,6 @@ nav ul li a{
         font-size: 14px;
     }
     nav ul{
-        width: 80%;
     }
 }
 @media only screen and (min-width: 850px){
@@ -33,6 +23,5 @@ nav ul li a{
         font-size: 17px;
     }
     nav ul{
-        width: 60%;
     }
 }

@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
 }
-html,body, div#root{
+body, div#root{
     width: 100vw;
     min-height: 100vh;
     color: #1A1616;
@@ -12,5 +12,5 @@ body{
     background: 
         url('../images/Background.png') top center no-repeat, 
         url('../images/Backgroun2.png') bottom center no-repeat;
-    background-size: 120vw 100vh;
+    background-size: 100vw 33%;
 }
