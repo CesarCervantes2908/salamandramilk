@@ -4,6 +4,7 @@ import Separador from './Separador';
 import { leches } from '../utils/Productos';
 import { kefir } from '../utils/Productos';
 import ProductCard from './ProductCard';
+import '../styles/Menu.css';
 
 function Menu() {
     const renderLeches = () => {
@@ -13,6 +14,7 @@ function Menu() {
                              className="leche-card"
                              imgageURL={leche.imgageURL}
                              price={leche.price}
+                             quantity={leche.quantity}
                              key={leche.title}>
                                 {leche.description}
                 </ProductCard>
@@ -26,6 +28,7 @@ function Menu() {
                              className="kefir-card"
                              imgageURL={product.imgageURL}
                              price={product.price}
+                             quantity={product.quantity}
                              key={product.title}>
                                 {product.description}
                 </ProductCard>
@@ -36,8 +39,8 @@ function Menu() {
         <>
             <NavBar></NavBar>
             <main>
-                <h1 className="title">Menú</h1>
                 <img className="logo" src="./images/Logo.png" />
+                <h1 className="title">Menú</h1>
                 <Separador> Lista de Precios</Separador>
                 <section id="Leches">
                     <h2 className="section-title" >

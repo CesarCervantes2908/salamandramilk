@@ -19,6 +19,9 @@ body{
 main{
     width: 100%;
     min-height: 92vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 section{
     width: 100%;
