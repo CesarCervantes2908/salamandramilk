@@ -1,0 +1,27 @@
+button#wa-button{
+    background-color: #05051f;
+    color: #f0e5e5;
+    height: 40px;
+    width: 250px;
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5vh 0;
+    outline: none;
+}
+button#wa-button:hover{
+    cursor: pointer;
+}
+img#whatssapp-logo{
+    height: 90%;
+    width: auto;
+    margin-left: 15px;
+}
+p.ubication, p.email{
+    margin-top: 5vh;
+}
+p.email{
+    margin-bottom: 5vh;
+}
