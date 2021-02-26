@@ -15,7 +15,8 @@ function Carousel() {
     let styles = {
         position: 'relative',
         width: matches ? '50%' : '90%',
-        height: matches ? '90vh' : '80vh'
+        height: matches ? '90vh' : '80vh',
+        margin: '5vh 0'
     };
     return (
             <AwesomeSlider

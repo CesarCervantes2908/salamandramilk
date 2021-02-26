@@ -25,7 +25,7 @@ function Inicio() {
                 <section id="third">
                     <Separador>SalamandraMilk</Separador>
                     <ExtraInfo></ExtraInfo>
-                    <Separador>Síguenos</Separador>
+                    <Separador id="siguenos">Síguenos</Separador>
                     <img className="ig-logo" src="./images/Iglogo.png"/>
                 </section>
             </main>

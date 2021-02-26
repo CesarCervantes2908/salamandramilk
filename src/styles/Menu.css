@@ -2,6 +2,7 @@ main > img.logo{
     width: 90%;
     height: auto;
     margin: 5vh auto;
+    max-width: 350px;
 }
 p.section-description{
     width: 90%;

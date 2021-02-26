@@ -2,7 +2,7 @@ button#wa-button{
     background-color: #05051f;
     color: #f0e5e5;
     height: 40px;
-    width: 250px;
+    width: 200px;
     border: none;
     border-radius: 20px;
     display: flex;
@@ -10,12 +10,13 @@ button#wa-button{
     align-items: center;
     margin: 5vh 0;
     outline: none;
+    transition: all 0.25s ease-out 0s;
 }
 button#wa-button:hover{
     cursor: pointer;
 }
 img#whatssapp-logo{
-    height: 90%;
+    height: 70%;
     width: auto;
     margin-left: 15px;
 }
