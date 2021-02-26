@@ -37,7 +37,12 @@ img.ig-logo{
     width: 10%;
     height: auto;
     margin: 5vh 0;
+    transition: all 0.5s ease-in;
 }
+img.ig-logo:hover{
+        width: 13%;
+        cursor: pointer;
+    }
 /*------------------------------------------------Tablet Styles-----------------------------------------*/
 @media screen and (min-width: 750px){
     section#first{
@@ -69,11 +74,6 @@ img.ig-logo{
         top: 40%;
         width: 4vw;
         z-index: 100;
-        transition: all 0.5s ease-in;
-    }
-    img.ig-logo:hover{
-        width: 4.5vw;
-        cursor: pointer;
     }
     div#siguenos{
         display: none;

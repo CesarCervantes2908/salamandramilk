@@ -2,12 +2,15 @@ div.product-card{
     width: 100%;
     border: solid 1px #777373;
     max-width: 400px;
-    margin: 5vh auto;
+    margin: 5vh 5vw;
+    border-radius: 25px;
+    overflow: hidden;
 }
 div.product-card img.card-image{
     height: 250px;
     width: 100%;
     opacity: 0.9;
+    object-fit: fill;
 }
 div.card-highlights{
     display: flex;

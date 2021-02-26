@@ -14,6 +14,10 @@ button#wa-button{
 }
 button#wa-button:hover{
     cursor: pointer;
+    transform: translateZ(5px);
+    color: #05051f;
+    background-color: transparent;
+    border: 1px solid #05051f;
 }
 img#whatssapp-logo{
     height: 70%;
