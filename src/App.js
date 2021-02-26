@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Contacto from "./components/Contacto";
 import Inicio from "./components/Inicio";
 import Menu from "./components/Menu";
+import Footer from './components/Footer'; 
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Contacto></Contacto>
         </Route>
       </Switch>
+      <Footer></Footer>
     </Router>
   );
 }
