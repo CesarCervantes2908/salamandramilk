@@ -37,7 +37,7 @@ function Menu() {
     };
     return (
         <>
-            <NavBar></NavBar>
+            <NavBar active={'menu'}></NavBar>
             <main>
                 <img className="logo" src="./images/Logo.png" />
                 <h1 className="title">Menú</h1>

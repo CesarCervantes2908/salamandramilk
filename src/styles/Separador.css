@@ -17,3 +17,8 @@ div.separador p.texto-separador{
     margin: 0 2vw;
     font-size: 1.5rem;
 }
+@media screen and (min-width: 750px){
+    div.separador p.texto-separador{
+        font-size: 2.5rem;
+    }
+}

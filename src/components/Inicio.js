@@ -8,7 +8,7 @@ import ExtraInfo from './ExtraInfo';
 function Inicio() {
     return (
         <>
-            <NavBar></NavBar>
+            <NavBar active={'inicio'}></NavBar>
             <main>
                 <section id="first">
                     <img src="./images/FotoInicio.jpeg" id="foto-inicio"/>

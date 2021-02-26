@@ -28,13 +28,13 @@ let kefir = [{
     title: 'Leche de Kéfir',
     price: 70,
     quantity: '1L',
-    imgageURL: './images/almendras.jpeg',
+    imgageURL: './images/FotoInicio.jpeg',
     description: 'Venta por litro.'
 }, {
     title: 'Yogur Griego',
     price: 35,
     quantity: '200g',
-    imgageURL: './images/almendras.jpeg',
+    imgageURL: './images/yogurt-griego.jpeg',
     description: (
         <>
             Libre de conservadores y endulzantes artificiales. A elegir:
@@ -50,7 +50,7 @@ let kefir = [{
         title: 'Hot Cakes',
         price: 70,
         quantity: '12 piezas',
-        imgageURL: './images/almendras.jpeg',
+        imgageURL: './images/hotcakes-horizontal.jpg',
         description: 'Libre de gluten. conservadores y azúcares. Elaborado con leche de Kéfir y mantequilla de coco. Ideal para acompañar con dulce o salado.'
     }];
 

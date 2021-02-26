@@ -9,7 +9,7 @@ function Contacto() {
     }
     return (
         <>
-            <NavBar></NavBar>
+            <NavBar active={'contacto'}></NavBar>
             <main>
                 <img className="logo" src="./images/Logo.png" />
                 <Separador>¡Realiza tu pedido!</Separador>
