@@ -1,0 +1,17 @@
+main > img.logo{
+    width: 90%;
+    height: auto;
+    margin: 5vh auto;
+    max-width: 350px;
+}
+p.section-description{
+    width: 90%;
+    text-align: center;
+    margin: 3vh auto;
+}
+div.product-container{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

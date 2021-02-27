@@ -1,0 +1,24 @@
+div.separador{
+    display: inline-flex;
+    width: 90%;
+    font-family: 'Allura', cursive;
+    justify-content: center;
+    align-items: center;
+    margin: 5vh 0;
+}
+div.barra{
+    height: 2px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #857f7f;
+}
+div.separador p.texto-separador{
+    white-space: nowrap;
+    margin: 0 2vw;
+    font-size: 1.5rem;
+}
+@media screen and (min-width: 750px){
+    div.separador p.texto-separador{
+        font-size: 2.5rem;
+    }
+}

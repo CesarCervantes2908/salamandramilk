@@ -1,0 +1,32 @@
+div.product-card{
+    width: 100%;
+    border: solid 1px #777373;
+    max-width: 400px;
+    margin: 5vh 5vw;
+    border-radius: 25px;
+    overflow: hidden;
+}
+div.product-card img.card-image{
+    height: 250px;
+    width: 100%;
+    opacity: 0.9;
+    object-fit: fill;
+}
+div.card-highlights{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+div.product-card span{
+    margin: 0 auto;
+    display: block;
+    color: #6d6767;
+    width: 90%;
+
+}
+p.description{
+    width: 90%;
+    margin: 20px auto;
+}
