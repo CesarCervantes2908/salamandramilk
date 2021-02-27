@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/salamandramilk/static/css/main.005975b1.chunk.css",
-    "main.js": "/salamandramilk/static/js/main.a3228a94.chunk.js",
-    "main.js.map": "/salamandramilk/static/js/main.a3228a94.chunk.js.map",
+    "main.css": "/salamandramilk/static/css/main.8af62296.chunk.css",
+    "main.js": "/salamandramilk/static/js/main.779b564c.chunk.js",
+    "main.js.map": "/salamandramilk/static/js/main.779b564c.chunk.js.map",
     "runtime-main.js": "/salamandramilk/static/js/runtime-main.73584613.js",
     "runtime-main.js.map": "/salamandramilk/static/js/runtime-main.73584613.js.map",
     "static/css/2.34b29efe.chunk.css": "/salamandramilk/static/css/2.34b29efe.chunk.css",
@@ -10,14 +10,14 @@
     "static/js/2.0231c3f2.chunk.js.map": "/salamandramilk/static/js/2.0231c3f2.chunk.js.map",
     "index.html": "/salamandramilk/index.html",
     "static/css/2.34b29efe.chunk.css.map": "/salamandramilk/static/css/2.34b29efe.chunk.css.map",
-    "static/css/main.005975b1.chunk.css.map": "/salamandramilk/static/css/main.005975b1.chunk.css.map",
+    "static/css/main.8af62296.chunk.css.map": "/salamandramilk/static/css/main.8af62296.chunk.css.map",
     "static/js/2.0231c3f2.chunk.js.LICENSE.txt": "/salamandramilk/static/js/2.0231c3f2.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.73584613.js",
     "static/css/2.34b29efe.chunk.css",
     "static/js/2.0231c3f2.chunk.js",
-    "static/css/main.005975b1.chunk.css",
-    "static/js/main.a3228a94.chunk.js"
+    "static/css/main.8af62296.chunk.css",
+    "static/js/main.779b564c.chunk.js"
   ]
 }
