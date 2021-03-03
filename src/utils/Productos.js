@@ -4,13 +4,13 @@ let leches = [
     price: 50,
     quantity: '1L',
     imgageURL: process.env.PUBLIC_URL + '/images/almendra.jpeg',
-    description: 'Por su alto contenido de fosforo y magnesio, las almendras nos ayudan a tener unos huesos fuertes, cuidan nuestros músculos, combaten la ansiedad y favorecen un buen descan; además, por su contenido de calcio previene la osteoporosis.'
+    description: 'Por su alto contenido de fósforo y magnesio, las almendras nos ayudan a tener unos huesos fuertes, cuidan nuestros músculos, combaten la ansiedad y favorecen un buen descanso; además, por su contenido de calcio previene la osteoporosis.'
 }, {
     title: 'Bebida de Nuez',
     price: 50,
     quantity: '1L',
     imgageURL: process.env.PUBLIC_URL + '/images/nuez.jpeg',
-    description: 'Reduce el colesterol por su alto contenido en ácidos gracos omega3 de origen vegetal, ayuda a prevenir enfermedades cardiovasculares y tener un corazón sano, cuida tu cerebro y regula el tránsito intestinal, entre muchos otros beneficios que nos ofrece.'
+    description: 'Reduce el colesterol por su alto contenido en ácidos grados omega3 de origen vegetal, ayuda a prevenir enfermedades cardiovasculares y tener un corazón sano, cuida tu cerebro y regula el tránsito intestinal, entre muchos otros beneficios que nos ofrece.'
 }, {
     title: 'Bebida de Avena',
     price: 40,
@@ -28,12 +28,12 @@ let kefir = [{
     title: 'Leche de Kéfir',
     price: 70,
     quantity: '1L',
-    imgageURL: process.env.PUBLIC_URL + '/images/FotoInicio.jpeg',
-    description: 'Venta por litro.'
+    imgageURL: process.env.PUBLIC_URL + '/images/leche-kefir.jpeg',
+    description: 'robióticos vivos'
 }, {
     title: 'Yogur Griego',
     price: 35,
-    quantity: '200g',
+    quantity: '',
     imgageURL: process.env.PUBLIC_URL + '/images/yogurt-griego.jpeg',
     description: (
         <>
@@ -51,7 +51,7 @@ let kefir = [{
         price: 70,
         quantity: '12 piezas',
         imgageURL: process.env.PUBLIC_URL + '/images/hotcakes-horizontal.jpg',
-        description: 'Libre de gluten. conservadores y azúcares. Elaborado con leche de Kéfir y mantequilla de coco. Ideal para acompañar con dulce o salado.'
+        description: 'Libre de gluten, conservadores y azúcares. Elaborado con leche de Kéfir y mantequilla de coco. Ideal para acompañar con dulce o salado.'
     }];
 
 export {leches};

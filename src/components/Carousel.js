@@ -22,14 +22,17 @@ function Carousel() {
             <AwesomeSlider
                 media={[
                 {
-                    source: process.env.PUBLIC_URL + '/images/FotoInicio.jpeg',
+                    source: process.env.PUBLIC_URL + '/images/carrusel1.jpeg',
                 },
                 {
-                    source: process.env.PUBLIC_URL + '/images/hotcakes.jpeg',
+                    source: process.env.PUBLIC_URL + '/images/carrusel2.jpeg',
                 },
                 {
-                    source: process.env.PUBLIC_URL + '/images/leche.jpeg',
+                    source: process.env.PUBLIC_URL + '/images/carrusel3.jpeg',
                 },
+                {
+                    source: process.env.PUBLIC_URL + '/images/carrusel4.jpeg'
+                }
                 ]}
                 style={styles}
                 mobileTouch={true}

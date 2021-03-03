@@ -6,6 +6,9 @@ import Carousel from './Carousel';
 import ExtraInfo from './ExtraInfo';
 
 function Inicio() {
+    const handleIGclick = ()=>{
+        window.open('https://instagram.com/salamandramilk?igshid=1kezg5xmbgv0f', '_blank')
+    };
     return (
         <>
             <NavBar active={'inicio'}></NavBar>
@@ -15,7 +18,7 @@ function Inicio() {
                     <div className="right-column">
                         <img src={process.env.PUBLIC_URL + "/images/Logo.png"} id="logo"/>
                         <h1 className="title">Kéfir</h1>
-                        <p className="text-info">Alimento probiótico que contiene compuestos bioactivos, incluyendo hasta 30 cepas de microorganismos que ayudan a combatir tumores, microbios dañinos, carcinógenos y muchas otras enfermedades.</p>
+                        <p className="text-info">De acuerdo a las investigaciones que se han hecho nos encontramos con que el Kéfir es un alimento probiótico que contiene compuestos bioactivos, incluyendo hasta 30 cepas de microorganismos que ayudan a combatir tumores, microbios dañinos, carcinógenos y muchas otras enfermedades.</p>
                     </div>
                 </section>
                 <section id="second">
@@ -23,10 +26,13 @@ function Inicio() {
                     <Carousel></Carousel>
                 </section>
                 <section id="third">
-                    <Separador>SalamandraMilk</Separador>
+                    <Separador>Salamandramilk</Separador>
                     <ExtraInfo></ExtraInfo>
                     <Separador id="siguenos">Síguenos</Separador>
-                    <img className="ig-logo" src={process.env.PUBLIC_URL + "/images/Iglogo.png"}/>
+                    <img className="ig-logo" 
+                         src={process.env.PUBLIC_URL + "/images/Iglogo.png"}
+                         onClick={handleIGclick}
+                         />
                 </section>
             </main>
         </>

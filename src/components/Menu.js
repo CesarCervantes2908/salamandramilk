@@ -40,8 +40,7 @@ function Menu() {
             <NavBar active={'menu'}></NavBar>
             <main>
                 <img className="logo" src={process.env.PUBLIC_URL + "/images/Logo.png"} />
-                <h1 className="title">Menú</h1>
-                <Separador> Lista de Precios</Separador>
+                <Separador>Lista de Precios</Separador>
                 <section id="Leches">
                     <h2 className="section-title" >
                         Leche Vegana
