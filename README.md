@@ -4,6 +4,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 This is web site of a small bussiness of organic milk and yogurt. 
 Contains information about the products and the company, also the menu and a contact page.
 
+#### Available at https://salamandramilk.shop
+
 ## Available Scripts
 
 In the project directory, you can run:
