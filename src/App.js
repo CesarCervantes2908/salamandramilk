@@ -3,7 +3,6 @@ import { HashRouter, Route } from "react-router-dom";
 import Contacto from "./components/Contacto";
 import Inicio from "./components/Inicio";
 import Menu from "./components/Menu";
-import Footer from './components/Footer'; 
 
 class App extends Component {
   render() {

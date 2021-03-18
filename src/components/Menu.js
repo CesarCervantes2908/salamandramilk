@@ -39,7 +39,7 @@ function Menu() {
         <>
             <NavBar active={'menu'}></NavBar>
             <main>
-                <img className="logo" src={process.env.PUBLIC_URL + "/images/Logo.png"} />
+                <img className="logo" src={process.env.PUBLIC_URL + "/images/Logo.png"} alt="logo de salamandramilk"/>
                 <Separador>Lista de Precios</Separador>
                 <section id="Leches">
                     <h2 className="section-title" >

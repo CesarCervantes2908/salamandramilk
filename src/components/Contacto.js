@@ -11,11 +11,11 @@ function Contacto() {
         <>
             <NavBar active={'contacto'}></NavBar>
             <main>
-                <img className="logo" src={process.env.PUBLIC_URL + "/images/Logo.png"} />
+                <img className="logo" src={process.env.PUBLIC_URL + "/images/Logo.png"} alt="logo de salamandramilk"/>
                 <Separador>¡Realiza tu pedido!</Separador>
                 <button id="wa-button" onClick={handleClick}>
                     Envianos un Mensaje 
-                    <img src={process.env.PUBLIC_URL + "/images/wa-logo.png"} alt="" id="whatssapp-logo"/>
+                    <img src={process.env.PUBLIC_URL + "/images/wa-logo.png"} alt="logo de whatsapp" id="whatssapp-logo"/>
                 </button>
                 <h1 className="title">SalamandraMilk</h1>
                 <p className="ubication">Gustavo A. Madero, Mexico City, Mexico</p>
