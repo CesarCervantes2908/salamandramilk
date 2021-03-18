@@ -29,7 +29,7 @@ let kefir = [{
     price: 70,
     quantity: '1L',
     imgageURL: process.env.PUBLIC_URL + '/images/leche-kefir.jpeg',
-    description: 'robióticos vivos'
+    description: 'Probióticos vivos'
 }, {
     title: 'Yogur Griego',
     price: 35,
