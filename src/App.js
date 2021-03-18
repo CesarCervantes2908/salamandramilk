@@ -18,7 +18,6 @@ class App extends Component {
         <Route path="/contacto">
           <Contacto></Contacto>
         </Route>
-        <Footer></Footer>
       </HashRouter>
     );
   }
